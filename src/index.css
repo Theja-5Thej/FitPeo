@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body,
+body#root,
+.ant-typography,
+.ant-btn,
+.ant-menu,
+.ant-input,
+.ant-card,
+.ant-layout {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  /* overflow-x: hidden; */
+
+}
+
+.poppins-thin {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.poppins-extralight {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.poppins-light {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.poppins-medium {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.poppins-semibold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.poppins-bold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.poppins-extrabold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.poppins-black {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+  list-style: none;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  color: rgb(201, 203, 204);
+}
+
+aside .ant-layout-sider-children {
+  display: flex;
+  flex-direction: column;
+}
+
+aside .ant-menu-item-selected {
+  background-color: transparent !important;
+}
+
+aside .ant-menu-item-selected div::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  background-color: rgb(77, 192, 227);
+  height: 20px;
+  width: 2px;
+}
+
+aside .ant-menu-item .ant-menu-title-content {
+  color: '#929294';
+  font-size: '18px';
+  font-weight: '700'
+}
+
+aside .ant-menu-item-selected svg {
+  fill: rgb(77, 192, 227);
+}
+
+aside .ant-menu-item-selected .ant-menu-title-content {
+  color: rgb(77, 192, 227);
+}
+
+aside .ant-menu-inline-collapsed .ant-menu-item {
+  padding-left: 22px;
+}
+
+aside .ant-menu-inline-collapsed .anticon.anticon-home {
+  height: 32px;
+}
+
+.ant-menu-horizonta {
+  gap: 20px;
+}
+
+.ant-menu-horizontal>.ant-menu-item {
+  padding: 0;
+  width: fit-content;
+  display: flex;
+  width: 30px;
+  margin-left: 20px;
+  background-color: none !important;
+}
+
+.ant-menu-dark.ant-menu-horizontal>.ant-menu-item-selected {
+  background: none !important;
+}
+
+.horizontalNav>.ant-menu-item .ant-menu-title-content {
+  display: none;
+}
+.ant-picker-input input::placeholder{
+  color: white;
+}
